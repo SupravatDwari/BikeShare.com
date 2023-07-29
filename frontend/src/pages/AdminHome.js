@@ -36,7 +36,7 @@ function AdminHome() {
         </Col>
       </Row>
 
-      {loading == true && <Spinner />}
+      {loading == true && <Spinner />}//indicates loading
 
       <Row justify="center" gutter={16}>
         {totalBikes.map((bike) => {
